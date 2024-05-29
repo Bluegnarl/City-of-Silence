@@ -1,0 +1,102 @@
+[
+  { "name": "Bluegnarl", "gender": "male", "way": "2", "place": 2 },
+  {
+    "ways": {
+      "1": {
+        "1": {
+          "text": "Vous venez de descendre du train. Sortez de la gare.",
+          "image": "1.png",
+          "choice": null,
+          "way": [
+            {
+              "positionX": "450px",
+              "positionY": "200px",
+              "size": "150px",
+              "dest": null
+            }
+          ],
+          "item": [],
+          "death": false
+        },
+        "2": {
+          "text": "Dirigez-vous vers la sortie.",
+          "image": "2.png",
+          "choice": null,
+          "way": [
+            {
+              "positionX": "270px",
+              "positionY": "280px",
+              "size": "150px",
+              "dest": null
+            }
+          ],
+          "item": [],
+          "death": false
+        },
+        "3": {
+          "text": "La ville semble vide.",
+          "image": "3.png",
+          "choice": null,
+          "way": [
+            {
+              "positionX": "170px",
+              "positionY": "160px",
+              "size": "150px",
+              "dest": 2
+            },
+            {
+              "positionX": "490px",
+              "positionY": "230px",
+              "size": "110px",
+              "dest": null
+            }
+          ],
+          "item": [],
+          "death": false
+        },
+        "4": {
+          "text": "Une sacr\u00e9e maison...",
+          "image": "cafe.png",
+          "choice": null,
+          "way": [],
+          "item": [],
+          "death": false
+        }
+      },
+      "2": {
+        "1": {
+          "text": "Visitez la ville.",
+          "image": "4.png",
+          "choice": null,
+          "way": [
+            {
+              "positionX": "265px",
+              "positionY": "250px",
+              "size": "200px",
+              "dest": null
+            }
+          ],
+          "item": [],
+          "death": false
+        },
+        "2": {
+          "text": "Une pr\u00e9sence humaine, enfin !",
+          "image": "5.png",
+          "choice": null,
+          "way": [],
+          "item": [
+            {
+              "text": "Passez votre chemin, il n'y a rien \u00e0 voir ici...",
+              "name": "agnes",
+              "positionX": "380px",
+              "positionY": "300px",
+              "size": "70px",
+              "type": "character"
+            }
+          ],
+          "death": false
+        }
+      }
+    }
+  }
+]
